@@ -83,7 +83,7 @@
               <input type="hidden" name="cat_id">
               <div class="form-group">
                 <label>Category Name</label>
-                <input type="text" name="e_cat_title" class="form-control" placeholder="Enter Brand Name">
+                <input type="text" name="e_cat_title" class="form-control" placeholder="Enter Categories Name">
               </div>
             </div>
             <input type="hidden" name="edit_category" value="1">

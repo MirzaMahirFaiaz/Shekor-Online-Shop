@@ -305,13 +305,13 @@ if (isset($_POST["Common"])) {
 							  
 							echo   
 								'<input type="hidden" name="return" value="http://localhost/project1/payment_success.php"/>
-					                <input type="hidden" name="notify_url" value="http://localhost/ecommerce-app-h/payment_success.php">
-									<input type="hidden" name="cancel_return" value="http://localhost/ecommerce-app-h/cancel.php"/>
+					                <input type="hidden" name="notify_url" value="http://localhost/Shekor_Online_Shop/payment_success.php">
+									<input type="hidden" name="cancel_return" value="http://localhost/Shekor_Online_SHop/cancel.php"/>
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="'.$_SESSION["uid"].'"/>
 									
 
-									<input type="submit" style="width:100%;" value="order now" class="btn btn-success btn-lg" alt="Checkout"
+									<input type="submit" style="width:100%;" value="Pay now" class="btn btn-success btn-lg" alt="Checkout"
 									alt="easier way to pay online">
 								</form>';
 				}

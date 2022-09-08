@@ -3,8 +3,6 @@
         <ul class="nav flex-column">
 
           <?php 
-
-
             $uri = $_SERVER['REQUEST_URI']; 
             $uriAr = explode("/", $uri);
             $page = end($uriAr);
@@ -46,6 +44,12 @@
             <a class="nav-link <?php echo ($page == 'customers.php') ? 'active' : ''; ?>" href="customers.php">
               <span data-feather="users"></span>
               Customers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <?php echo ($page == 'contactshow.php') ? 'active' : ''; ?>" href="contactshow.php">
+              <span data-feather="users"></span>
+              Messeges
             </a>
           </li>
         </ul>
